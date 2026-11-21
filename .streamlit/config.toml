@@ -1,0 +1,16 @@
+[server]
+enableStaticServing = true
+# Default is 120s — a phone locking mid-set (resting between sets, walking
+# to the next machine) easily exceeds that, which wipes the server-side
+# session state and silently discards every tick/entry since the last
+# save. An hour comfortably covers a real session without leaving stale
+# sessions parked indefinitely.
+disconnectedSessionTTL = 3600
+
+[theme]
+base = "dark"
+primaryColor = "#FF6B35"
+backgroundColor = "#0E1117"
+secondaryBackgroundColor = "#1C2128"
+textColor = "#FAFAFA"
+font = "sans serif"

@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Personal user data — not part of the general app
+data/users/*
+!data/users/example.json
+
+# Secrets — never committed, set separately in Streamlit Cloud's own
+# secrets manager for the deployed app
+.streamlit/secrets.toml
+
+venv/

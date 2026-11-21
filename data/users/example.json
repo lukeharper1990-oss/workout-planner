@@ -1,0 +1,13 @@
+[
+  {
+    "exercise_name": "Front Squat",
+    "excluded": true,
+    "exclusion_reason": "Example: replace with your own dislikes"
+  },
+  {
+    "exercise_name": "Bench Press",
+    "excluded": false,
+    "hard_to_access": true,
+    "access_note": "Example: mark equipment that's often busy at your gym, not disliked, just contended"
+  }
+]
